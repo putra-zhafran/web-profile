@@ -116,3 +116,41 @@ header .nama-brend{
 /* section-about */
 
 /* and section-about */
+
+
+
+/* responsive section */
+
+@media (max-width: 400px){
+    nav ul{
+        display: none;
+    }
+
+    body{
+        overflow-x: hidden
+    }
+
+    .hero-kanan{
+        display: none;
+    }
+
+    .section-hero{
+        margin-top: 0;
+    }
+
+    .hero-kiri .hero-title{
+        font-size: 3rem;
+    }
+
+    nav{
+        padding: 1.5em 15%;
+        background-color: #4798de;
+    }
+
+    .nama-brend{
+        color: #fff;
+    }
+
+
+
+/* and responsiv section */
