@@ -42,7 +42,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #15307f;
+    color: #191a1e;
 }
 
 nav a{
@@ -54,13 +54,14 @@ header{
 }
 
 header .nama-brend{
-    color: #15307f;
+    color: #191a1e;
 }
 
 /* section hero */
 
 .section-hero{
     display: flex;
+    margin-top: 7em;
 }
 
 .hero-kiri{
@@ -90,6 +91,12 @@ header .nama-brend{
     border-radius: 4em;
     color: #fff;
     margin-top: 1.5em;
+    
+}
+
+.hero-kiri .btn-hero:hover{
+    transition:0.4s ease;
+    padding-right: 5em;
 }
 
 .hero-kanan{
